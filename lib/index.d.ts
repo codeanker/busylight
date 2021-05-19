@@ -21,7 +21,7 @@ declare module 'busylight' {
         off(): void;
         send(jingle: jingle): void;
         ring(tone?: tone | false, volume?: number): Busylight;
-        light(color?: string | string[] | false): Busylight;
+        light(color?: string | string[] | number[] | false): Busylight;
         blink(colors?: string | string[] | false, rate?: number): Busylight;
         pulse(colors?: string | string[] | false, rate?: number): Busylight;
     }
